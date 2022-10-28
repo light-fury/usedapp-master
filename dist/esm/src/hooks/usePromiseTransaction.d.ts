@@ -8,7 +8,7 @@ interface PromiseTransactionOpts {
 /**
  * @internal
  */
-export declare function estimateTransactionGasLimit(transactionRequest: TransactionRequest | undefined, signer: Signer | undefined, gasLimitBufferPercentage: number): Promise<BigNumber | import("@ethersproject/bignumber").BigNumber | undefined>;
+export declare function estimateTransactionGasLimit(transactionRequest: TransactionRequest | undefined, signer: Signer | undefined, gasLimitBufferPercentage: number): Promise<BigNumber | undefined>;
 /**
  * @internal
  */
